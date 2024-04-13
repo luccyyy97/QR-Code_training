@@ -1,0 +1,61 @@
+:root {
+    --font-Outfit: "Outfit";
+    --font-weight: "Bold";
+
+    --color-pageBG: #D5E1EF;
+    --color-content: #FFFFFF;
+    --color-iconBG: #2C7DFA;
+    --color-iconBGTwo: #3685FF;
+
+    --color-font: #1F314F;
+    --color-paragraph: #7D889E;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--color-pageBG);
+}
+
+body > div {
+    width: 320px;
+    height: auto;
+    background-color: var(--color-content);
+    border-radius: 20px;
+    position: relative;
+    top: 20vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.inner-content {
+   width: 280px;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+   padding: 16px;
+}
+
+img {
+    width: 290px;
+    border-radius: 16px;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h1 {
+    font-family: var(--font-Outfit);
+    font-size: 22px;
+    color: var(--color-font);
+    text-align: center;
+}
+
+P {
+    font-family: var(--font-Outfit); 
+    font-size: 15px;
+    color: var(--color-paragraph);
+    text-align: center;
+}
